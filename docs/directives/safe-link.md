@@ -10,7 +10,7 @@ Automatically secures external anchor links by adding `rel="noopener noreferrer"
 </template>
 
 <script setup>
-import { vSafeLink } from "vue-directives";
+import { vSafeLink } from "vue-directives-pro";
 </script>
 ```
 
@@ -37,7 +37,7 @@ import { vSafeLink } from "vue-directives";
 </template>
 
 <script setup>
-import { vSafeLink } from "vue-directives";
+import { vSafeLink } from "vue-directives-pro";
 </script>
 ```
 
@@ -50,7 +50,7 @@ import { vSafeLink } from "vue-directives";
 </template>
 
 <script setup>
-import { vSafeLink } from "vue-directives";
+import { vSafeLink } from "vue-directives-pro";
 </script>
 ```
 
@@ -66,6 +66,6 @@ import { vSafeLink } from "vue-directives";
 </template>
 
 <script setup>
-import { vSafeLink } from "vue-directives";
+import { vSafeLink } from "vue-directives-pro";
 </script>
 ```

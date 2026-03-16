@@ -12,7 +12,7 @@ Displays a real-time FPS (frames per second) monitoring overlay on the page. The
 </template>
 
 <script setup>
-import { vFpsMonitor } from "vue-directives";
+import { vFpsMonitor } from "vue-directives-pro";
 </script>
 ```
 
@@ -40,7 +40,7 @@ Set the binding to `false` to completely disable the monitor without removing th
 </template>
 
 <script setup>
-import { vFpsMonitor } from "vue-directives";
+import { vFpsMonitor } from "vue-directives-pro";
 </script>
 ```
 
@@ -56,7 +56,7 @@ import { vFpsMonitor } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vFpsMonitor } from "vue-directives";
+import { vFpsMonitor } from "vue-directives-pro";
 
 const showFps = ref(true);
 </script>

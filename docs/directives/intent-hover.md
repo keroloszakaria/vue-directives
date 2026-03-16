@@ -12,7 +12,7 @@ Detects intentional hover by analyzing mouse movement speed, ignoring accidental
 </template>
 
 <script setup>
-import { vIntentHover } from "vue-directives";
+import { vIntentHover } from "vue-directives-pro";
 
 function showPreview() {
   console.log("User intends to hover — show content");
@@ -68,7 +68,7 @@ The directive tracks recent mouse positions on `mousemove`. On each `interval` t
 
 <script setup>
 import { ref } from "vue";
-import { vIntentHover } from "vue-directives";
+import { vIntentHover } from "vue-directives-pro";
 
 const activeMenu = ref("");
 const categories = [
@@ -103,7 +103,7 @@ const categories = [
 
 <script setup>
 import { ref } from "vue";
-import { vIntentHover } from "vue-directives";
+import { vIntentHover } from "vue-directives-pro";
 
 const showPreview = ref(false);
 const user = {

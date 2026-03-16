@@ -10,7 +10,7 @@ Throttles an event handler on an element — the handler is invoked at most once
 </template>
 
 <script setup>
-import { vThrottle } from "vue-directives";
+import { vThrottle } from "vue-directives-pro";
 
 function onSubmit() {
   console.log("Submitted!");
@@ -46,7 +46,7 @@ When the binding value updates, the old listener is removed, any pending timer i
 
 <script setup>
 import { ref } from "vue";
-import { vThrottle } from "vue-directives";
+import { vThrottle } from "vue-directives-pro";
 
 const count = ref(0);
 
@@ -72,7 +72,7 @@ function onClick() {
 
 <script setup>
 import { ref } from "vue";
-import { vThrottle } from "vue-directives";
+import { vThrottle } from "vue-directives-pro";
 
 const scrollY = ref(0);
 

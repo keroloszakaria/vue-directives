@@ -13,7 +13,7 @@ Tracks scroll progress as a percentage (0–100) and calls a handler function on
 
 <script setup>
 import { ref } from "vue";
-import { vScrollProgress } from "vue-directives";
+import { vScrollProgress } from "vue-directives-pro";
 
 const progress = ref(0);
 
@@ -72,7 +72,7 @@ The listener is registered with `{ passive: true }` for optimal scroll performan
 
 <script setup>
 import { ref } from "vue";
-import { vScrollProgress } from "vue-directives";
+import { vScrollProgress } from "vue-directives-pro";
 
 const progress = ref(0);
 
@@ -101,7 +101,7 @@ function onProgress(value) {
 
 <script setup>
 import { ref } from "vue";
-import { vScrollProgress } from "vue-directives";
+import { vScrollProgress } from "vue-directives-pro";
 
 const containerProgress = ref(0);
 

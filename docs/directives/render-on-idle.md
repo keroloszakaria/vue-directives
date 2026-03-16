@@ -12,7 +12,7 @@ Defers rendering of non-critical content until the browser is idle using `reques
 </template>
 
 <script setup>
-import { vRenderOnIdle } from "vue-directives";
+import { vRenderOnIdle } from "vue-directives-pro";
 </script>
 ```
 
@@ -40,7 +40,7 @@ Falls back to a 50ms `setTimeout` in browsers that do not support `requestIdleCa
 </template>
 
 <script setup>
-import { vRenderOnIdle } from "vue-directives";
+import { vRenderOnIdle } from "vue-directives-pro";
 </script>
 ```
 
@@ -61,7 +61,7 @@ import { vRenderOnIdle } from "vue-directives";
 </template>
 
 <script setup>
-import { vRenderOnIdle } from "vue-directives";
+import { vRenderOnIdle } from "vue-directives-pro";
 import HeavyChart from "./HeavyChart.vue";
 </script>
 ```

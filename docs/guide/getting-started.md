@@ -1,6 +1,6 @@
 # Getting Started
 
-**vue-directives** is a comprehensive library of **86+ custom directives** for Vue 3 and Nuxt 3, covering UI interactions, form handling, animations, accessibility, performance, security, and more.
+**vue-directives-pro** is a comprehensive library of **86+ custom directives** for Vue 3 and Nuxt 3, covering UI interactions, form handling, animations, accessibility, performance, security, and more.
 
 ## Why?
 
@@ -29,7 +29,7 @@ Custom directives allow you to attach reusable DOM behavior to elements without 
 
 <script setup>
 import { ref } from "vue";
-import { vClickOutside } from "vue-directives";
+import { vClickOutside } from "vue-directives-pro";
 
 const open = ref(false);
 const closeMenu = () => {

@@ -18,7 +18,7 @@ Provides container-query-like behavior using `ResizeObserver`. Applies CSS class
 </template>
 
 <script setup>
-import { vElementQuery } from "vue-directives";
+import { vElementQuery } from "vue-directives-pro";
 </script>
 ```
 
@@ -56,7 +56,7 @@ Width and height conditions are evaluated independently — both must match for 
 </template>
 
 <script setup>
-import { vElementQuery } from "vue-directives";
+import { vElementQuery } from "vue-directives-pro";
 </script>
 
 <style scoped>
@@ -91,7 +91,7 @@ import { vElementQuery } from "vue-directives";
 </template>
 
 <script setup>
-import { vElementQuery } from "vue-directives";
+import { vElementQuery } from "vue-directives-pro";
 </script>
 
 <style scoped>

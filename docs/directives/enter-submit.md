@@ -12,7 +12,7 @@ Submit a form or trigger a callback when the user presses the **Enter** key. Aut
 </template>
 
 <script setup>
-import { vEnterSubmit } from "vue-directives";
+import { vEnterSubmit } from "vue-directives-pro";
 
 function onSubmit() {
   console.log("Form submitted!");
@@ -49,7 +49,7 @@ The binding value is optional. You can pass a **callback function** or omit it e
 
 <script setup>
 import { ref } from "vue";
-import { vEnterSubmit } from "vue-directives";
+import { vEnterSubmit } from "vue-directives-pro";
 
 const name = ref("");
 const email = ref("");
@@ -76,7 +76,7 @@ function save() {
 
 <script setup>
 import { ref } from "vue";
-import { vEnterSubmit } from "vue-directives";
+import { vEnterSubmit } from "vue-directives-pro";
 
 const query = ref("");
 const result = ref("");

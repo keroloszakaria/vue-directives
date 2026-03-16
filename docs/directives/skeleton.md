@@ -11,7 +11,7 @@ Display skeleton placeholder lines over an element while content is loading. Sup
 
 <script setup>
 import { ref } from "vue";
-import { vSkeleton } from "vue-directives";
+import { vSkeleton } from "vue-directives-pro";
 
 const isLoading = ref(true);
 </script>
@@ -46,7 +46,7 @@ The binding value can be a **boolean** (shorthand) or an **object**:
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { vSkeleton } from "vue-directives";
+import { vSkeleton } from "vue-directives-pro";
 
 const loading = ref(true);
 const title = ref("");
@@ -83,7 +83,7 @@ onMounted(async () => {
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { vSkeleton } from "vue-directives";
+import { vSkeleton } from "vue-directives-pro";
 
 const loading = ref(true);
 const article = ref({ title: "", body: "", date: "" });

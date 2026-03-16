@@ -10,7 +10,7 @@ Persist an input element's value to `localStorage` or `sessionStorage` and autom
 </template>
 
 <script setup>
-import { vPersist } from "vue-directives";
+import { vPersist } from "vue-directives-pro";
 </script>
 ```
 
@@ -40,7 +40,7 @@ The binding value can be a **string** or an **object**:
 </template>
 
 <script setup>
-import { vPersist } from "vue-directives";
+import { vPersist } from "vue-directives-pro";
 </script>
 ```
 
@@ -55,7 +55,7 @@ import { vPersist } from "vue-directives";
 </template>
 
 <script setup>
-import { vPersist } from "vue-directives";
+import { vPersist } from "vue-directives-pro";
 </script>
 ```
 
@@ -74,7 +74,7 @@ import { vPersist } from "vue-directives";
 </template>
 
 <script setup>
-import { vPersist } from "vue-directives";
+import { vPersist } from "vue-directives-pro";
 import { ref } from "vue";
 
 const darkMode = ref(false);

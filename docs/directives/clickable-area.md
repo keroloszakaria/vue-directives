@@ -10,7 +10,7 @@ Expands the clickable (tappable) area of an element beyond its visible bounds by
 </template>
 
 <script setup>
-import { vClickableArea } from "vue-directives";
+import { vClickableArea } from "vue-directives-pro";
 </script>
 ```
 
@@ -43,7 +43,7 @@ This keeps the element's visual size the same while making the interactive hit a
 </template>
 
 <script setup>
-import { vClickableArea } from "vue-directives";
+import { vClickableArea } from "vue-directives-pro";
 </script>
 ```
 
@@ -61,7 +61,7 @@ import { vClickableArea } from "vue-directives";
 </template>
 
 <script setup>
-import { vClickableArea } from "vue-directives";
+import { vClickableArea } from "vue-directives-pro";
 </script>
 ```
 
@@ -83,7 +83,7 @@ import { vClickableArea } from "vue-directives";
 </template>
 
 <script setup>
-import { vClickableArea } from "vue-directives";
+import { vClickableArea } from "vue-directives-pro";
 
 const actions = [
   { icon: "🔍", handler: () => console.log("Search") },

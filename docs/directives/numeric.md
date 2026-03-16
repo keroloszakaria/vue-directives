@@ -10,7 +10,7 @@ Restricts an input to accept only numeric characters. Optionally allows decimal 
 </template>
 
 <script setup>
-import { vNumeric } from "vue-directives";
+import { vNumeric } from "vue-directives-pro";
 </script>
 ```
 
@@ -42,7 +42,7 @@ If no value or `true` is passed, only integer digits (`0-9`) are allowed. Invali
 
 <script setup>
 import { ref } from "vue";
-import { vNumeric } from "vue-directives";
+import { vNumeric } from "vue-directives-pro";
 
 const qty = ref("");
 </script>
@@ -70,7 +70,7 @@ const qty = ref("");
 
 <script setup>
 import { ref } from "vue";
-import { vNumeric } from "vue-directives";
+import { vNumeric } from "vue-directives-pro";
 
 const price = ref("");
 const temp = ref("");

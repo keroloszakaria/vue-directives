@@ -14,7 +14,7 @@ Automatically calculates and applies responsive grid or flex layout to a contain
 </template>
 
 <script setup>
-import { vAutoLayout } from "vue-directives";
+import { vAutoLayout } from "vue-directives-pro";
 </script>
 ```
 
@@ -42,7 +42,7 @@ When `type` is `'flex'`, each direct child gets `flex: 1 1 {minWidth}px` for nat
 </template>
 
 <script setup>
-import { vAutoLayout } from "vue-directives";
+import { vAutoLayout } from "vue-directives-pro";
 </script>
 ```
 
@@ -59,7 +59,7 @@ import { vAutoLayout } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vAutoLayout } from "vue-directives";
+import { vAutoLayout } from "vue-directives-pro";
 
 const tags = ref(["Vue", "React", "Angular", "Svelte", "Solid", "Lit"]);
 </script>
@@ -75,6 +75,6 @@ const tags = ref(["Vue", "React", "Angular", "Svelte", "Solid", "Lit"]);
 </template>
 
 <script setup>
-import { vAutoLayout } from "vue-directives";
+import { vAutoLayout } from "vue-directives-pro";
 </script>
 ```

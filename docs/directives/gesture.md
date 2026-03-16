@@ -12,7 +12,7 @@ Recognizes multi-touch gestures — pinch-to-zoom, two-finger rotation, and sing
 </template>
 
 <script setup>
-import { vGesture } from "vue-directives";
+import { vGesture } from "vue-directives-pro";
 
 function handlePinch(scale) {
   console.log("Pinch scale:", scale);
@@ -65,7 +65,7 @@ The binding value is a **`GestureBinding`** object:
 
 <script setup>
 import { ref } from "vue";
-import { vGesture } from "vue-directives";
+import { vGesture } from "vue-directives-pro";
 
 const scale = ref(1);
 const rotation = ref(0);
@@ -103,7 +103,7 @@ function handlePan(dx, dy) {
 
 <script setup>
 import { ref } from "vue";
-import { vGesture } from "vue-directives";
+import { vGesture } from "vue-directives-pro";
 
 const zoom = ref(1);
 

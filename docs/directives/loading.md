@@ -11,7 +11,7 @@ Show a loading overlay with an animated spinner on top of an element. Useful for
 
 <script setup>
 import { ref } from "vue";
-import { vLoading } from "vue-directives";
+import { vLoading } from "vue-directives-pro";
 
 const isLoading = ref(true);
 </script>
@@ -47,7 +47,7 @@ The binding value can be a **boolean** (shorthand) or an **object**:
 
 <script setup>
 import { ref } from 'vue'
-import { vLoading } from 'vue-directives'
+import { vLoading } from 'vue-directives-pro'
 
 const loading = ref(false)
 const items = ref<string[]>([])
@@ -82,7 +82,7 @@ async function fetchData() {
 
 <script setup>
 import { ref } from "vue";
-import { vLoading } from "vue-directives";
+import { vLoading } from "vue-directives-pro";
 
 const saving = ref(false);
 const content = ref("");

@@ -13,7 +13,7 @@ Enables drag-and-drop sorting of list items using the native HTML Drag and Drop 
 
 <script setup>
 import { ref } from "vue";
-import { vDragSort } from "vue-directives";
+import { vDragSort } from "vue-directives-pro";
 
 const items = ref([
   { id: 1, name: "Item A" },
@@ -55,7 +55,7 @@ The directive automatically sets `draggable="true"` on each child matching `item
 
 <script setup>
 import { ref } from "vue";
-import { vDragSort } from "vue-directives";
+import { vDragSort } from "vue-directives-pro";
 
 const items = ref([
   { id: 1, name: "Learn Vue" },
@@ -87,7 +87,7 @@ function handleSort(from, to) {
 
 <script setup>
 import { ref } from "vue";
-import { vDragSort } from "vue-directives";
+import { vDragSort } from "vue-directives-pro";
 
 const cards = ref([
   { id: 1, title: "Design", description: "Create mockups" },

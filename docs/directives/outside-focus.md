@@ -13,7 +13,7 @@ Detects when focus leaves the element and all of its descendants. Fires a callba
 </template>
 
 <script setup>
-import { vOutsideFocus } from "vue-directives";
+import { vOutsideFocus } from "vue-directives-pro";
 
 function onFocusLeave() {
   console.log("Focus left the container!");
@@ -47,7 +47,7 @@ The directive listens to the `focusout` event on the element. It checks `event.r
 
 <script setup>
 import { ref } from "vue";
-import { vOutsideFocus } from "vue-directives";
+import { vOutsideFocus } from "vue-directives-pro";
 
 const open = ref(false);
 </script>
@@ -70,7 +70,7 @@ const open = ref(false);
 
 <script setup>
 import { ref } from "vue";
-import { vOutsideFocus } from "vue-directives";
+import { vOutsideFocus } from "vue-directives-pro";
 
 const sectionLeft = ref(false);
 

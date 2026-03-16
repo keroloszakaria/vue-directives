@@ -5,7 +5,7 @@ export interface ModuleOptions extends VueDirectivesPluginOptions {}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "vue-directives",
+    name: "vue-directives-pro",
     configKey: "vueDirectives",
     compatibility: {
       nuxt: ">=3.0.0",

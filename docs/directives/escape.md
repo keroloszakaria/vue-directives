@@ -10,7 +10,7 @@ Fires a callback when the **Escape** key is pressed. Commonly used to close moda
 </template>
 
 <script setup>
-import { vEscape } from "vue-directives";
+import { vEscape } from "vue-directives-pro";
 
 function handleClose() {
   console.log("Escape pressed!");
@@ -49,7 +49,7 @@ The listener is registered on `document`, so it triggers regardless of which ele
 
 <script setup>
 import { ref } from "vue";
-import { vEscape } from "vue-directives";
+import { vEscape } from "vue-directives-pro";
 
 const open = ref(false);
 
@@ -77,7 +77,7 @@ function close() {
 
 <script setup>
 import { ref } from "vue";
-import { vEscape } from "vue-directives";
+import { vEscape } from "vue-directives-pro";
 
 const searchOpen = ref(false);
 const query = ref("");

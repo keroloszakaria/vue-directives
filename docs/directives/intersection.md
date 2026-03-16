@@ -10,7 +10,7 @@ A lightweight, generic wrapper around the native `IntersectionObserver` API. Giv
 </template>
 
 <script setup>
-import { vIntersection } from "vue-directives";
+import { vIntersection } from "vue-directives-pro";
 
 function onIntersect(entry) {
   console.log("Is intersecting:", entry.isIntersecting);
@@ -59,7 +59,7 @@ The binding value is an **`IntersectionBinding`** object:
 </template>
 
 <script setup>
-import { vIntersection } from "vue-directives";
+import { vIntersection } from "vue-directives-pro";
 
 function onIntersect(entry) {
   if (entry.isIntersecting) {
@@ -91,7 +91,7 @@ function onIntersect(entry) {
 
 <script setup>
 import { ref } from "vue";
-import { vIntersection } from "vue-directives";
+import { vIntersection } from "vue-directives-pro";
 
 const ratio = ref(0);
 

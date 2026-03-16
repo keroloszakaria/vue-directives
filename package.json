@@ -1,5 +1,5 @@
 {
-  "name": "vue-directives",
+  "name": "vue-directives-pro",
   "version": "1.0.0",
   "description": "86+ tree-shakable, fully typed Vue 3 & Nuxt 3/4 custom directives — click-outside, tooltip, copy, longpress, ripple, lazy-load, virtual-scroll, drag, swipe, focus-trap, and more",
   "main": "dist/index.cjs.js",
@@ -23,7 +23,7 @@
     "build": "rollup -c rollup.config.mjs",
     "dev": "rollup -c rollup.config.mjs --watch",
     "prepublishOnly": "npm run build",
-    "deploy": "surge docs/.vitepress/dist vue-directives.surge.sh",
+    "deploy": "surge docs/.vitepress/dist vue-directives-pro.surge.sh",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
@@ -31,7 +31,7 @@
   "keywords": [
     "vue",
     "vue3",
-    "vue-directives",
+    "vue-directives-pro",
     "nuxt",
     "nuxt3",
     "nuxt4",
@@ -83,11 +83,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keroloszakaria/vue-directives.git"
+    "url": "https://github.com/keroloszakaria/vue-directives-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/keroloszakaria/vue-directives/issues"
+    "url": "https://github.com/keroloszakaria/vue-directives-pro/issues"
   },
-  "homepage": "https://vue-directives.surge.sh",
+  "homepage": "https://vue-directives-pro.surge.sh",
   "license": "MIT"
 }

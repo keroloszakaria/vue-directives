@@ -10,7 +10,7 @@ Makes any element draggable via mouse or touch. Supports constrained axes, bound
 </template>
 
 <script setup>
-import { vDraggable } from "vue-directives";
+import { vDraggable } from "vue-directives-pro";
 </script>
 ```
 
@@ -48,7 +48,7 @@ The directive automatically sets `position: relative` and `cursor: grab` on the 
 </template>
 
 <script setup>
-import { vDraggable } from "vue-directives";
+import { vDraggable } from "vue-directives-pro";
 </script>
 ```
 
@@ -70,7 +70,7 @@ import { vDraggable } from "vue-directives";
 </template>
 
 <script setup>
-import { vDraggable } from "vue-directives";
+import { vDraggable } from "vue-directives-pro";
 </script>
 ```
 
@@ -93,7 +93,7 @@ import { vDraggable } from "vue-directives";
 
 <script setup>
 import { reactive } from "vue";
-import { vDraggable } from "vue-directives";
+import { vDraggable } from "vue-directives-pro";
 
 const pos = reactive({ x: 0 });
 

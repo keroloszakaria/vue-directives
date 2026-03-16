@@ -12,7 +12,7 @@ Enables click-and-drag scrolling on an overflowing container. Users can grab the
 </template>
 
 <script setup>
-import { vDragScroll } from "vue-directives";
+import { vDragScroll } from "vue-directives-pro";
 </script>
 ```
 
@@ -45,7 +45,7 @@ The directive sets `cursor: grab` on the element and switches to `cursor: grabbi
 </template>
 
 <script setup>
-import { vDragScroll } from "vue-directives";
+import { vDragScroll } from "vue-directives-pro";
 </script>
 ```
 
@@ -73,7 +73,7 @@ import { vDragScroll } from "vue-directives";
 </template>
 
 <script setup>
-import { vDragScroll } from "vue-directives";
+import { vDragScroll } from "vue-directives-pro";
 
 const columns = ["ID", "Name", "Email", "Phone", "City", "Country", "Status"];
 const rows = Array.from({ length: 50 }, (_, i) => ({

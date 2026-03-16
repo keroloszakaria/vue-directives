@@ -6,7 +6,7 @@ Add the module to your `nuxt.config.ts`:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["vue-directives/nuxt"],
+  modules: ["vue-directives-pro/nuxt"],
 });
 ```
 

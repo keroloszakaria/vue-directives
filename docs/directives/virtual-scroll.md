@@ -13,7 +13,7 @@ Efficiently render large lists by only rendering the items currently visible in 
 
 <script setup>
 import { ref } from "vue";
-import { vVirtualScroll } from "vue-directives";
+import { vVirtualScroll } from "vue-directives-pro";
 
 const list = ref(Array.from({ length: 10000 }, (_, i) => `Item ${i + 1}`));
 
@@ -49,7 +49,7 @@ const renderFn = (item, index) => `<span>${item}</span>`;
 
 <script setup>
 import { ref } from "vue";
-import { vVirtualScroll } from "vue-directives";
+import { vVirtualScroll } from "vue-directives-pro";
 
 const users = ref(
   Array.from({ length: 5000 }, (_, i) => ({ id: i, name: `User ${i + 1}` })),
@@ -74,7 +74,7 @@ const users = ref(
 
 <script setup>
 import { ref } from "vue";
-import { vVirtualScroll } from "vue-directives";
+import { vVirtualScroll } from "vue-directives-pro";
 
 const logs = ref(
   Array.from({ length: 100000 }, (_, i) => ({

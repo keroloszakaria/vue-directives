@@ -10,7 +10,7 @@ Intelligently prefetches link targets based on viewport visibility, hover intent
 </template>
 
 <script setup>
-import { vSmartPrefetch } from "vue-directives";
+import { vSmartPrefetch } from "vue-directives-pro";
 </script>
 ```
 
@@ -38,7 +38,7 @@ The binding value is optional — defaults are used when no value is provided. L
 </template>
 
 <script setup>
-import { vSmartPrefetch } from "vue-directives";
+import { vSmartPrefetch } from "vue-directives-pro";
 </script>
 ```
 
@@ -67,6 +67,6 @@ import { vSmartPrefetch } from "vue-directives";
 </template>
 
 <script setup>
-import { vSmartPrefetch } from "vue-directives";
+import { vSmartPrefetch } from "vue-directives-pro";
 </script>
 ```

@@ -10,7 +10,7 @@ Automatically selects all text content inside an `<input>` or `<textarea>` when 
 </template>
 
 <script setup>
-import { vSelectAll } from "vue-directives";
+import { vSelectAll } from "vue-directives-pro";
 </script>
 ```
 
@@ -36,7 +36,7 @@ This directive takes **no binding value**. Simply add `v-select-all` to any `<in
 </template>
 
 <script setup>
-import { vSelectAll } from "vue-directives";
+import { vSelectAll } from "vue-directives-pro";
 
 const apiKey = "sk-abc123def456ghi789jkl012mno345";
 </script>
@@ -60,7 +60,7 @@ const apiKey = "sk-abc123def456ghi789jkl012mno345";
 
 <script setup>
 import { ref } from "vue";
-import { vSelectAll } from "vue-directives";
+import { vSelectAll } from "vue-directives-pro";
 
 const url = ref("https://example.com");
 </script>

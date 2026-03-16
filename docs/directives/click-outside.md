@@ -12,7 +12,7 @@ Detects clicks outside the element and fires a callback. Useful for closing drop
 </template>
 
 <script setup>
-import { vClickOutside } from 'vue-directives'
+import { vClickOutside } from 'vue-directives-pro'
 
 function handleClose(event: MouseEvent) {
   console.log('Clicked outside!', event)
@@ -50,7 +50,7 @@ The directive uses a `setTimeout` internally to avoid catching the initial click
 
 <script setup>
 import { ref } from "vue";
-import { vClickOutside } from "vue-directives";
+import { vClickOutside } from "vue-directives-pro";
 
 const open = ref(false);
 </script>
@@ -70,7 +70,7 @@ const open = ref(false);
 
 <script setup>
 import { ref } from "vue";
-import { vClickOutside } from "vue-directives";
+import { vClickOutside } from "vue-directives-pro";
 
 const showModal = ref(true);
 

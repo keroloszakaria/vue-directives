@@ -10,7 +10,7 @@ Fires a callback whenever the element is resized, powered by the native `ResizeO
 </template>
 
 <script setup>
-import { vResizeObserver } from 'vue-directives'
+import { vResizeObserver } from 'vue-directives-pro'
 
 function onResize({ width, height, el }: { width: number; height: number; el: HTMLElement }) {
   console.log(`New size: ${width}x${height}`)
@@ -46,7 +46,7 @@ When passing a function directly, it is used as the `handler` with no debounce:
 
 <script setup>
 import { reactive } from 'vue'
-import { vResizeObserver } from 'vue-directives'
+import { vResizeObserver } from 'vue-directives-pro'
 
 const size = reactive({ width: 0, height: 0 })
 
@@ -70,7 +70,7 @@ function onResize({ width, height }: { width: number; height: number }) {
 </template>
 
 <script setup>
-import { vResizeObserver } from 'vue-directives'
+import { vResizeObserver } from 'vue-directives-pro'
 
 function handleResize({ width, height, el }: { width: number; height: number; el: HTMLElement }) {
   el.dataset.lastSize = `${Math.round(width)}x${Math.round(height)}`

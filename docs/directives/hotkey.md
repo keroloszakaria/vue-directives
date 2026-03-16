@@ -10,7 +10,7 @@ Binds global keyboard shortcuts to handler functions. Supports modifier keys (`c
 </template>
 
 <script setup>
-import { vHotkey } from "vue-directives";
+import { vHotkey } from "vue-directives-pro";
 
 function onSave(e) {
   e.preventDefault();
@@ -65,7 +65,7 @@ Shortcuts are registered on `document`, so they work globally regardless of focu
 
 <script setup>
 import { ref } from "vue";
-import { vHotkey } from "vue-directives";
+import { vHotkey } from "vue-directives-pro";
 
 const lastAction = ref("none");
 
@@ -101,7 +101,7 @@ const shortcuts = {
 
 <script setup>
 import { ref } from "vue";
-import { vHotkey } from "vue-directives";
+import { vHotkey } from "vue-directives-pro";
 
 const query = ref("");
 const submitted = ref("");

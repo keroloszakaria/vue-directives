@@ -10,7 +10,7 @@ Fires callbacks when an element enters or leaves the viewport using `Intersectio
 </template>
 
 <script setup>
-import { vInView } from "vue-directives";
+import { vInView } from "vue-directives-pro";
 
 function onEnter(el) {
   console.log("Element entered viewport", el);
@@ -52,7 +52,7 @@ The binding value is an **`InViewBinding`** object:
 
 <script setup>
 import { ref } from "vue";
-import { vInView } from "vue-directives";
+import { vInView } from "vue-directives-pro";
 
 const visible = ref(false);
 
@@ -87,7 +87,7 @@ function onEnter(el) {
 
 <script setup>
 import { ref } from "vue";
-import { vInView } from "vue-directives";
+import { vInView } from "vue-directives-pro";
 
 const sections = ["Introduction", "Features", "Pricing", "Contact"];
 const activeSection = ref("");

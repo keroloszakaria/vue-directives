@@ -11,7 +11,7 @@ Two directives that automatically transform input text to **uppercase** or **low
 </template>
 
 <script setup>
-import { vUppercase, vLowercase } from "vue-directives";
+import { vUppercase, vLowercase } from "vue-directives-pro";
 </script>
 ```
 
@@ -44,7 +44,7 @@ Both directives take **no binding value**. Simply add `v-uppercase` or `v-lowerc
 
 <script setup>
 import { ref } from "vue";
-import { vUppercase } from "vue-directives";
+import { vUppercase } from "vue-directives-pro";
 
 const code = ref("");
 </script>
@@ -69,7 +69,7 @@ const code = ref("");
 
 <script setup>
 import { ref } from "vue";
-import { vLowercase } from "vue-directives";
+import { vLowercase } from "vue-directives-pro";
 
 const email = ref("");
 </script>

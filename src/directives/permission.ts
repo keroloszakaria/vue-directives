@@ -9,7 +9,7 @@ import type { ObjectDirective } from "vue";
  *   <button v-permission="{ roles: ['admin'], action: 'hide' }">Secret</button>
  *
  * You must set the current user roles globally:
- *   import { setPermissionRoles } from 'vue-directives';
+ *   import { setPermissionRoles } from 'vue-directives-pro';
  *   setPermissionRoles(['admin', 'user']);
  */
 

@@ -10,7 +10,7 @@ Applies a magnetic attraction effect — the element subtly shifts toward the cu
 </template>
 
 <script setup>
-import { vMagnetic } from "vue-directives";
+import { vMagnetic } from "vue-directives-pro";
 </script>
 ```
 
@@ -42,7 +42,7 @@ The directive adds a `transform` transition (`0.2s ease-out`) and resets the tra
 </template>
 
 <script setup>
-import { vMagnetic } from "vue-directives";
+import { vMagnetic } from "vue-directives-pro";
 </script>
 
 <style scoped>
@@ -77,7 +77,7 @@ import { vMagnetic } from "vue-directives";
 </template>
 
 <script setup>
-import { vMagnetic } from "vue-directives";
+import { vMagnetic } from "vue-directives-pro";
 
 const icons = ["🏠", "🔍", "⚙️", "👤"];
 </script>

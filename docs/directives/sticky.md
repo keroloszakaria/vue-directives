@@ -10,7 +10,7 @@ Makes an element sticky with a configurable top offset, z-index, and an optional
 </template>
 
 <script setup>
-import { vSticky } from "vue-directives";
+import { vSticky } from "vue-directives-pro";
 </script>
 ```
 
@@ -52,7 +52,7 @@ When `stickyClass` is provided, a tiny invisible sentinel `<div>` is inserted be
 </template>
 
 <script setup>
-import { vSticky } from "vue-directives";
+import { vSticky } from "vue-directives-pro";
 </script>
 ```
 
@@ -74,7 +74,7 @@ import { vSticky } from "vue-directives";
 </template>
 
 <script setup>
-import { vSticky } from "vue-directives";
+import { vSticky } from "vue-directives-pro";
 </script>
 
 <style scoped>

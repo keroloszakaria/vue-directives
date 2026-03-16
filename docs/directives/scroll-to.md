@@ -13,7 +13,7 @@ Smooth-scrolls the page to a target element when the directive's host element is
 </template>
 
 <script setup>
-import { vScrollTo } from "vue-directives";
+import { vScrollTo } from "vue-directives-pro";
 </script>
 ```
 
@@ -54,7 +54,7 @@ The binding value can be a **string** (CSS selector) or a **`ScrollToBinding`** 
 </template>
 
 <script setup>
-import { vScrollTo } from "vue-directives";
+import { vScrollTo } from "vue-directives-pro";
 </script>
 ```
 
@@ -81,6 +81,6 @@ import { vScrollTo } from "vue-directives";
 </template>
 
 <script setup>
-import { vScrollTo } from "vue-directives";
+import { vScrollTo } from "vue-directives-pro";
 </script>
 ```

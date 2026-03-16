@@ -12,7 +12,7 @@ Highlight search keywords inside text content by wrapping matches in a configura
 </template>
 
 <script setup>
-import { vHighlight } from "vue-directives";
+import { vHighlight } from "vue-directives-pro";
 import { ref } from "vue";
 
 const searchTerm = ref("text");
@@ -48,7 +48,7 @@ The binding value can be a **string** or an **object**:
 </template>
 
 <script setup>
-import { vHighlight } from "vue-directives";
+import { vHighlight } from "vue-directives-pro";
 </script>
 ```
 
@@ -66,7 +66,7 @@ import { vHighlight } from "vue-directives";
 </template>
 
 <script setup>
-import { vHighlight } from "vue-directives";
+import { vHighlight } from "vue-directives-pro";
 import { ref } from "vue";
 
 const search = ref("");
@@ -98,7 +98,7 @@ const search = ref("");
 </template>
 
 <script setup>
-import { vHighlight } from "vue-directives";
+import { vHighlight } from "vue-directives-pro";
 import { ref } from "vue";
 
 const keyword = ref("keywords");

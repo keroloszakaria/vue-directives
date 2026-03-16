@@ -16,7 +16,7 @@ Injects a Content Security Policy nonce into all `<script>` and `<style>` elemen
 </template>
 
 <script setup>
-import { vCspNonce } from "vue-directives";
+import { vCspNonce } from "vue-directives-pro";
 
 const nonce = "abc123serverNonce";
 </script>
@@ -47,7 +47,7 @@ The directive re-applies the nonce on updates only when the value changes.
 </template>
 
 <script setup>
-import { vCspNonce } from "vue-directives";
+import { vCspNonce } from "vue-directives-pro";
 
 const nonce = window.__CSP_NONCE__ || "";
 </script>
@@ -74,7 +74,7 @@ const nonce = window.__CSP_NONCE__ || "";
 
 <script setup>
 import { ref } from "vue";
-import { vCspNonce } from "vue-directives";
+import { vCspNonce } from "vue-directives-pro";
 
 const serverNonce = ref("nonceFromSSR");
 </script>

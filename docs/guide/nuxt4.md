@@ -6,7 +6,7 @@ Add the module to your `nuxt.config.ts`:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["vue-directives/nuxt"],
+  modules: ["vue-directives-pro/nuxt"],
 });
 ```
 
@@ -34,7 +34,7 @@ To register only specific directives and reduce bundle size, pass options in you
 export default defineNuxtConfig({
   modules: [
     [
-      "vue-directives/nuxt",
+      "vue-directives-pro/nuxt",
       {
         directives: ["click-outside", "tooltip", "ripple", "lazy-load"],
       },
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 
 ## Compatibility with Nuxt 4
 
-Nuxt 4 introduces several changes including the new `app/` directory structure and updated defaults. The `vue-directives` module is fully compatible:
+Nuxt 4 introduces several changes including the new `app/` directory structure and updated defaults. The `vue-directives-pro` module is fully compatible:
 
 - **New directory structure** — Works with both `app/` (Nuxt 4 default) and `src/` layouts.
 - **Client-only execution** — Directives are registered in **client mode only**, so they are safe with SSR and the new rendering pipeline.

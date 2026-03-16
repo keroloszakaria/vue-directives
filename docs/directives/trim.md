@@ -10,7 +10,7 @@ Automatically trims leading and trailing whitespace from an input's value when t
 </template>
 
 <script setup>
-import { vTrim } from "vue-directives";
+import { vTrim } from "vue-directives-pro";
 import { ref } from "vue";
 
 const name = ref("");
@@ -40,7 +40,7 @@ This directive takes **no binding value**. Simply add `v-trim` to any `<input>` 
 
 <script setup>
 import { ref } from "vue";
-import { vTrim } from "vue-directives";
+import { vTrim } from "vue-directives-pro";
 
 const username = ref("");
 </script>
@@ -63,7 +63,7 @@ const username = ref("");
 
 <script setup>
 import { reactive } from "vue";
-import { vTrim } from "vue-directives";
+import { vTrim } from "vue-directives-pro";
 
 const form = reactive({
   firstName: "",

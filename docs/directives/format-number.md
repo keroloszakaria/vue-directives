@@ -10,7 +10,7 @@ Formats the text content of an element as a locale-aware number using `Intl.Numb
 </template>
 
 <script setup>
-import { vFormatNumber } from "vue-directives";
+import { vFormatNumber } from "vue-directives-pro";
 </script>
 ```
 
@@ -46,7 +46,7 @@ When a plain number is passed, the element's text content is replaced with the f
 
 <script setup>
 import { ref } from "vue";
-import { vFormatNumber } from "vue-directives";
+import { vFormatNumber } from "vue-directives-pro";
 
 const price = ref(49999.5);
 </script>
@@ -94,6 +94,6 @@ const price = ref(49999.5);
 </template>
 
 <script setup>
-import { vFormatNumber } from "vue-directives";
+import { vFormatNumber } from "vue-directives-pro";
 </script>
 ```

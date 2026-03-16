@@ -14,7 +14,7 @@ Guards tab navigation so that focus cycles within the element's focusable childr
 </template>
 
 <script setup>
-import { vTabGuard } from "vue-directives";
+import { vTabGuard } from "vue-directives-pro";
 </script>
 ```
 
@@ -41,7 +41,7 @@ When there are no focusable children inside the element the default Tab behaviou
 </template>
 
 <script setup>
-import { vTabGuard } from "vue-directives";
+import { vTabGuard } from "vue-directives-pro";
 </script>
 ```
 
@@ -60,7 +60,7 @@ import { vTabGuard } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vTabGuard } from "vue-directives";
+import { vTabGuard } from "vue-directives-pro";
 
 const isLocked = ref(true);
 </script>

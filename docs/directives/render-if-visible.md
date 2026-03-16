@@ -12,7 +12,7 @@ Defers rendering of an element's content until the element scrolls into the view
 </template>
 
 <script setup>
-import { vRenderIfVisible } from "vue-directives";
+import { vRenderIfVisible } from "vue-directives-pro";
 </script>
 ```
 
@@ -37,7 +37,7 @@ Pass an options object or omit the value entirely to use the defaults.
 </template>
 
 <script setup>
-import { vRenderIfVisible } from "vue-directives";
+import { vRenderIfVisible } from "vue-directives-pro";
 </script>
 ```
 
@@ -52,7 +52,7 @@ import { vRenderIfVisible } from "vue-directives";
 </template>
 
 <script setup>
-import { vRenderIfVisible } from "vue-directives";
+import { vRenderIfVisible } from "vue-directives-pro";
 </script>
 ```
 
@@ -69,6 +69,6 @@ import { vRenderIfVisible } from "vue-directives";
 </template>
 
 <script setup>
-import { vRenderIfVisible } from "vue-directives";
+import { vRenderIfVisible } from "vue-directives-pro";
 </script>
 ```

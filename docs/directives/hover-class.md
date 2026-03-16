@@ -10,7 +10,7 @@ Adds one or more CSS classes to an element on `mouseenter` and removes them on `
 </template>
 
 <script setup>
-import { vHoverClass } from "vue-directives";
+import { vHoverClass } from "vue-directives-pro";
 </script>
 ```
 
@@ -33,7 +33,7 @@ The directive supports **reactive updates** — when the bound value changes, ol
 </template>
 
 <script setup>
-import { vHoverClass } from "vue-directives";
+import { vHoverClass } from "vue-directives-pro";
 </script>
 ```
 
@@ -50,7 +50,7 @@ import { vHoverClass } from "vue-directives";
 </template>
 
 <script setup>
-import { vHoverClass } from "vue-directives";
+import { vHoverClass } from "vue-directives-pro";
 </script>
 ```
 
@@ -71,7 +71,7 @@ import { vHoverClass } from "vue-directives";
 </template>
 
 <script setup>
-import { vHoverClass } from "vue-directives";
+import { vHoverClass } from "vue-directives-pro";
 
 const items = ["Dashboard", "Settings", "Profile", "Logout"];
 </script>
@@ -88,7 +88,7 @@ const items = ["Dashboard", "Settings", "Profile", "Logout"];
 
 <script setup>
 import { computed } from "vue";
-import { vHoverClass } from "vue-directives";
+import { vHoverClass } from "vue-directives-pro";
 
 const isDark = true;
 const hoverClasses = computed(() =>

@@ -10,7 +10,7 @@ Auto-apply ARIA attributes to any element declaratively. Pass an object of ARIA 
 </template>
 
 <script setup>
-import { vAria } from "vue-directives";
+import { vAria } from "vue-directives-pro";
 </script>
 ```
 
@@ -46,7 +46,7 @@ Properties set to `undefined` are skipped. The `role` key maps directly to the `
 
 <script setup>
 import { ref } from "vue";
-import { vAria } from "vue-directives";
+import { vAria } from "vue-directives-pro";
 
 const isOn = ref(false);
 </script>
@@ -71,7 +71,7 @@ const isOn = ref(false);
 
 <script setup>
 import { ref } from "vue";
-import { vAria } from "vue-directives";
+import { vAria } from "vue-directives-pro";
 
 const open = ref(false);
 </script>
@@ -88,7 +88,7 @@ const open = ref(false);
 
 <script setup>
 import { ref } from "vue";
-import { vAria } from "vue-directives";
+import { vAria } from "vue-directives-pro";
 
 const statusMessage = ref("All changes saved.");
 </script>

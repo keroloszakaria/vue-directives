@@ -6,7 +6,7 @@ The simplest way — register all 86+ directives at once:
 
 ```ts
 import { createApp } from "vue";
-import VueDirectivesPlugin from "vue-directives";
+import VueDirectivesPlugin from "vue-directives-pro";
 import App from "./App.vue";
 
 const app = createApp(App);
@@ -38,7 +38,7 @@ Import directives directly in components — bundlers will tree-shake the rest:
 
 ```vue
 <script setup>
-import { vClickOutside, vCopy } from "vue-directives";
+import { vClickOutside, vCopy } from "vue-directives-pro";
 </script>
 
 <template>
@@ -51,7 +51,7 @@ import { vClickOutside, vCopy } from "vue-directives";
 Or with the Options API:
 
 ```ts
-import { vClickOutside, vCopy } from "vue-directives";
+import { vClickOutside, vCopy } from "vue-directives-pro";
 
 export default {
   directives: {
@@ -66,7 +66,7 @@ export default {
 All directives are fully typed. You get full IntelliSense for directive values:
 
 ```ts
-import type { VueDirectivesPluginOptions } from "vue-directives";
+import type { VueDirectivesPluginOptions } from "vue-directives-pro";
 
 // Autocomplete for directive names
 const options: VueDirectivesPluginOptions = {

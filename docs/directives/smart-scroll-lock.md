@@ -11,7 +11,7 @@ Intelligent scroll locking that prevents background page scrolling (e.g. when a 
 
 <script setup>
 import { ref } from "vue";
-import { vSmartScrollLock } from "vue-directives";
+import { vSmartScrollLock } from "vue-directives-pro";
 
 const isModalOpen = ref(false);
 </script>
@@ -45,7 +45,7 @@ const isModalOpen = ref(false);
 
 <script setup>
 import { ref } from "vue";
-import { vSmartScrollLock } from "vue-directives";
+import { vSmartScrollLock } from "vue-directives-pro";
 
 const showModal = ref(false);
 </script>
@@ -69,7 +69,7 @@ const showModal = ref(false);
 
 <script setup>
 import { ref } from "vue";
-import { vSmartScrollLock } from "vue-directives";
+import { vSmartScrollLock } from "vue-directives-pro";
 
 const drawerOpen = ref(false);
 </script>

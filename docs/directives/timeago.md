@@ -10,7 +10,7 @@ Display a date as auto-updating relative time text (e.g. "5 minutes ago", "in 3 
 </template>
 
 <script setup>
-import { vTimeago } from "vue-directives";
+import { vTimeago } from "vue-directives-pro";
 import { ref } from "vue";
 
 const createdAt = ref(new Date("2024-01-15"));
@@ -49,7 +49,7 @@ The binding value can be a **`Date`**, **`string`**, **`number`**, or an **objec
 </template>
 
 <script setup>
-import { vTimeago } from "vue-directives";
+import { vTimeago } from "vue-directives-pro";
 
 const post = { createdAt: new Date(Date.now() - 3600000) }; // 1 hour ago
 </script>
@@ -63,7 +63,7 @@ const post = { createdAt: new Date(Date.now() - 3600000) }; // 1 hour ago
 </template>
 
 <script setup>
-import { vTimeago } from "vue-directives";
+import { vTimeago } from "vue-directives-pro";
 
 const post = { createdAt: new Date("2024-06-01T12:00:00") };
 </script>
@@ -82,7 +82,7 @@ const post = { createdAt: new Date("2024-06-01T12:00:00") };
 </template>
 
 <script setup>
-import { vTimeago } from "vue-directives";
+import { vTimeago } from "vue-directives-pro";
 
 const events = [
   { id: 1, name: "Deploy", timestamp: Date.now() - 86400000 },

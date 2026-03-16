@@ -20,7 +20,7 @@ Any other character in the mask string is treated as a literal and inserted auto
 </template>
 
 <script setup>
-import { vMask } from "vue-directives";
+import { vMask } from "vue-directives-pro";
 </script>
 ```
 
@@ -47,7 +47,7 @@ The mask is applied on every `input` event. Cursor position is preserved. When t
 </template>
 
 <script setup>
-import { vMask } from "vue-directives";
+import { vMask } from "vue-directives-pro";
 </script>
 ```
 
@@ -72,6 +72,6 @@ import { vMask } from "vue-directives";
 </template>
 
 <script setup>
-import { vMask } from "vue-directives";
+import { vMask } from "vue-directives-pro";
 </script>
 ```

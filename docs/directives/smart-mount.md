@@ -12,7 +12,7 @@ Provides intelligent mounting strategies for components. Instead of mounting imm
 </template>
 
 <script setup>
-import { vSmartMount } from "vue-directives";
+import { vSmartMount } from "vue-directives-pro";
 
 function initComponent() {
   console.log("Component initialized!");
@@ -49,7 +49,7 @@ function initComponent() {
 </template>
 
 <script setup>
-import { vSmartMount } from "vue-directives";
+import { vSmartMount } from "vue-directives-pro";
 
 function loadAnalytics() {
   console.log("Analytics loaded during idle time");
@@ -68,7 +68,7 @@ function loadAnalytics() {
 </template>
 
 <script setup>
-import { vSmartMount } from "vue-directives";
+import { vSmartMount } from "vue-directives-pro";
 
 function initEditor() {
   console.log("Editor initialized on first interaction");

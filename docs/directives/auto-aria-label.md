@@ -10,7 +10,7 @@ Automatically generates an `aria-label` from the element's text content, `title`
 </template>
 
 <script setup>
-import { vAutoAriaLabel } from "vue-directives";
+import { vAutoAriaLabel } from "vue-directives-pro";
 </script>
 ```
 
@@ -33,7 +33,7 @@ The directive does **not** override an `aria-label` that is already present on t
 </template>
 
 <script setup>
-import { vAutoAriaLabel } from "vue-directives";
+import { vAutoAriaLabel } from "vue-directives-pro";
 </script>
 ```
 
@@ -45,7 +45,7 @@ import { vAutoAriaLabel } from "vue-directives";
 </template>
 
 <script setup>
-import { vAutoAriaLabel } from "vue-directives";
+import { vAutoAriaLabel } from "vue-directives-pro";
 </script>
 ```
 
@@ -58,6 +58,6 @@ import { vAutoAriaLabel } from "vue-directives";
 </template>
 
 <script setup>
-import { vAutoAriaLabel } from "vue-directives";
+import { vAutoAriaLabel } from "vue-directives-pro";
 </script>
 ```

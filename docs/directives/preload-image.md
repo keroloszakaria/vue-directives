@@ -10,7 +10,7 @@ Preloads images before the element enters the viewport by creating `Image` objec
 </template>
 
 <script setup>
-import { vPreloadImage } from "vue-directives";
+import { vPreloadImage } from "vue-directives-pro";
 </script>
 ```
 
@@ -34,7 +34,7 @@ The directive uses an `IntersectionObserver` with a `rootMargin` of `300px` to b
 </template>
 
 <script setup>
-import { vPreloadImage } from "vue-directives";
+import { vPreloadImage } from "vue-directives-pro";
 </script>
 ```
 
@@ -50,6 +50,6 @@ import { vPreloadImage } from "vue-directives";
 </template>
 
 <script setup>
-import { vPreloadImage } from "vue-directives";
+import { vPreloadImage } from "vue-directives-pro";
 </script>
 ```

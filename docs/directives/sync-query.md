@@ -10,7 +10,7 @@ Two-way sync an input element's value with a URL query parameter. On mount, the 
 </template>
 
 <script setup>
-import { vSyncQuery } from "vue-directives";
+import { vSyncQuery } from "vue-directives-pro";
 </script>
 ```
 
@@ -32,7 +32,7 @@ When the input is cleared, the query parameter is removed from the URL.
 </template>
 
 <script setup>
-import { vSyncQuery } from "vue-directives";
+import { vSyncQuery } from "vue-directives-pro";
 </script>
 ```
 
@@ -49,7 +49,7 @@ Typing "vue directives" updates the URL to `?q=vue+directives`. Refreshing the p
 </template>
 
 <script setup>
-import { vSyncQuery } from "vue-directives";
+import { vSyncQuery } from "vue-directives-pro";
 </script>
 ```
 

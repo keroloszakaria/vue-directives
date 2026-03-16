@@ -13,7 +13,7 @@ Automatically submits a `<form>` when any of its `<input>`, `<select>`, or `<tex
 
 <script setup>
 import { ref } from "vue";
-import { vAutoSubmit } from "vue-directives";
+import { vAutoSubmit } from "vue-directives-pro";
 
 const search = ref("");
 
@@ -55,7 +55,7 @@ The directive listens to both `input` and `change` events on every `<input>`, `<
 
 <script setup>
 import { ref } from "vue";
-import { vAutoSubmit } from "vue-directives";
+import { vAutoSubmit } from "vue-directives-pro";
 
 const category = ref("");
 const minPrice = ref(0);
@@ -91,7 +91,7 @@ function applyFilters() {
 
 <script setup>
 import { ref } from "vue";
-import { vAutoSubmit } from "vue-directives";
+import { vAutoSubmit } from "vue-directives-pro";
 
 const darkMode = ref(false);
 const fontSize = ref("16");

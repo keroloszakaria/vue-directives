@@ -10,7 +10,7 @@ Copy text to the clipboard when the element is clicked. Uses the Clipboard API (
 </template>
 
 <script setup>
-import { vCopy } from "vue-directives";
+import { vCopy } from "vue-directives-pro";
 </script>
 ```
 
@@ -37,13 +37,13 @@ The binding value can be a **string** or an **object**:
 
 ```vue
 <template>
-  <button v-copy="'npm install vue-directives'">
+  <button v-copy="'npm install vue-directives-pro'">
     📋 Copy Install Command
   </button>
 </template>
 
 <script setup>
-import { vCopy } from "vue-directives";
+import { vCopy } from "vue-directives-pro";
 </script>
 ```
 
@@ -61,7 +61,7 @@ import { vCopy } from "vue-directives";
 </template>
 
 <script setup>
-import { vCopy } from "vue-directives";
+import { vCopy } from "vue-directives-pro";
 import { ref } from "vue";
 
 const message = ref("");

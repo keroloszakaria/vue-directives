@@ -10,7 +10,7 @@ Animate a number counting up from 0 (or a previous value) to a target value with
 </template>
 
 <script setup>
-import { vCountUp } from "vue-directives";
+import { vCountUp } from "vue-directives-pro";
 </script>
 ```
 
@@ -43,7 +43,7 @@ When the binding value updates, the animation runs from the old value to the new
 </template>
 
 <script setup>
-import { vCountUp } from "vue-directives";
+import { vCountUp } from "vue-directives-pro";
 </script>
 ```
 
@@ -69,7 +69,7 @@ import { vCountUp } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vCountUp } from "vue-directives";
+import { vCountUp } from "vue-directives-pro";
 
 const revenue = ref(12450.75);
 </script>
@@ -91,7 +91,7 @@ const revenue = ref(12450.75);
 
 <script setup>
 import { ref } from "vue";
-import { vCountUp } from "vue-directives";
+import { vCountUp } from "vue-directives-pro";
 
 const completion = ref(87.5);
 </script>

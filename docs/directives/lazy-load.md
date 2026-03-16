@@ -10,7 +10,7 @@ Lazy-loads images (or background images) using `IntersectionObserver`. The actua
 </template>
 
 <script setup>
-import { vLazyLoad } from "vue-directives";
+import { vLazyLoad } from "vue-directives-pro";
 </script>
 ```
 
@@ -58,7 +58,7 @@ The binding value can be a **string** (image URL) or a **`LazyLoadBinding`** obj
 </template>
 
 <script setup>
-import { vLazyLoad } from "vue-directives";
+import { vLazyLoad } from "vue-directives-pro";
 </script>
 ```
 
@@ -83,7 +83,7 @@ import { vLazyLoad } from "vue-directives";
 </template>
 
 <script setup>
-import { vLazyLoad } from "vue-directives";
+import { vLazyLoad } from "vue-directives-pro";
 
 const images = [
   { id: 1, url: "https://picsum.photos/seed/a/400/300", alt: "Photo A" },

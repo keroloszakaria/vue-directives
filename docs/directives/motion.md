@@ -18,7 +18,7 @@ Apply enter animations with inline CSS transitions when an element scrolls into 
 </template>
 
 <script setup>
-import { vMotion } from "vue-directives";
+import { vMotion } from "vue-directives-pro";
 </script>
 ```
 
@@ -52,7 +52,7 @@ import { vMotion } from "vue-directives";
 </template>
 
 <script setup>
-import { vMotion } from "vue-directives";
+import { vMotion } from "vue-directives-pro";
 </script>
 ```
 
@@ -79,7 +79,7 @@ import { vMotion } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vMotion } from "vue-directives";
+import { vMotion } from "vue-directives-pro";
 
 const cards = ref([
   { id: 1, title: "Design" },

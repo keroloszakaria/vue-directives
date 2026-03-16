@@ -12,7 +12,7 @@ Intelligently distinguishes between single clicks and double clicks on the same 
 </template>
 
 <script setup>
-import { vSmartClick } from 'vue-directives'
+import { vSmartClick } from 'vue-directives-pro'
 
 function handleSingle(e: MouseEvent) {
   console.log('Single click', e)
@@ -55,7 +55,7 @@ The binding value is a `SmartClickBinding` object:
 
 <script setup>
 import { ref } from 'vue'
-import { vSmartClick } from 'vue-directives'
+import { vSmartClick } from 'vue-directives-pro'
 
 const files = [
   { name: 'report.pdf' },
@@ -90,7 +90,7 @@ function openFile(file: { name: string }) {
 </template>
 
 <script setup>
-import { vSmartClick } from 'vue-directives'
+import { vSmartClick } from 'vue-directives-pro'
 
 const item = { id: 1, title: 'Meeting Notes' }
 

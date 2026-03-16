@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "vue-directives",
+  title: "vue-directives-pro",
   description:
     "A comprehensive collection of 86+ Vue 3 & Nuxt 3 custom directives",
   base: "/",
@@ -425,7 +425,8 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/vue-directives" },
+      { icon: "github", link: "https://github.com/vue-directives-pro" },
+      { icon: "npm", link: "https://www.npmjs.com/package/vue-directives-pro" },
     ],
     search: {
       provider: "local",

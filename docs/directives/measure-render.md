@@ -12,7 +12,7 @@ Measures the render performance of an element using the [Performance API](https:
 </template>
 
 <script setup>
-import { vMeasureRender } from "vue-directives";
+import { vMeasureRender } from "vue-directives-pro";
 </script>
 ```
 
@@ -38,7 +38,7 @@ When a string is provided, the directive logs to `console.debug` in the format:
 
 <script setup>
 import { ref } from "vue";
-import { vMeasureRender } from "vue-directives";
+import { vMeasureRender } from "vue-directives-pro";
 
 const users = ref([
   { id: 1, name: "Alice" },
@@ -58,7 +58,7 @@ const users = ref([
 </template>
 
 <script setup>
-import { vMeasureRender } from 'vue-directives'
+import { vMeasureRender } from 'vue-directives-pro'
 
 function reportRender(duration: number) {
   if (duration > 16) {

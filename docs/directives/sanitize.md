@@ -11,7 +11,7 @@ A safe alternative to `v-html` that sanitizes HTML content before inserting it i
 
 <script setup>
 import { ref } from "vue";
-import { vSanitize } from "vue-directives";
+import { vSanitize } from "vue-directives-pro";
 
 const userHtml = ref("<p>Hello <b>world</b></p>");
 </script>
@@ -40,7 +40,7 @@ When a plain string is passed it is sanitized with default rules (block dangerou
 
 <script setup>
 import { ref } from 'vue'
-import { vSanitize } from 'vue-directives'
+import { vSanitize } from 'vue-directives-pro'
 
 const content = ref('<b>Safe</b><script>alert("xss")</script>')
 // Renders: <b>Safe</b>
@@ -56,7 +56,7 @@ const content = ref('<b>Safe</b><script>alert("xss")</script>')
 
 <script setup>
 import { ref } from "vue";
-import { vSanitize } from "vue-directives";
+import { vSanitize } from "vue-directives-pro";
 
 const richText = ref("<p>Hello <b>bold</b> and <div>block</div></p>");
 // <div> is not in allowedTags so its content becomes plain text
@@ -78,7 +78,7 @@ const richText = ref("<p>Hello <b>bold</b> and <div>block</div></p>");
 
 <script setup>
 import { ref } from "vue";
-import { vSanitize } from "vue-directives";
+import { vSanitize } from "vue-directives-pro";
 
 const htmlWithAttrs = ref(
   '<p><a href="/safe" class="link" onclick="steal()">Click</a></p>',

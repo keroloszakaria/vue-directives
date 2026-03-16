@@ -10,7 +10,7 @@ Applies a parallax scrolling effect to an element by translating it relative to 
 </template>
 
 <script setup>
-import { vParallax } from "vue-directives";
+import { vParallax } from "vue-directives-pro";
 </script>
 ```
 
@@ -53,7 +53,7 @@ The directive uses `translate3d` for GPU-accelerated transforms and registers th
 </template>
 
 <script setup>
-import { vParallax } from "vue-directives";
+import { vParallax } from "vue-directives-pro";
 </script>
 ```
 
@@ -78,6 +78,6 @@ import { vParallax } from "vue-directives";
 </template>
 
 <script setup>
-import { vParallax } from "vue-directives";
+import { vParallax } from "vue-directives-pro";
 </script>
 ```

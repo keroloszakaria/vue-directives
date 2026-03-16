@@ -12,7 +12,7 @@ A generic press handler that provides distinct callbacks for press, release, and
 </template>
 
 <script setup>
-import { vPress } from "vue-directives";
+import { vPress } from "vue-directives-pro";
 
 function start() {
   console.log("Press started");
@@ -55,7 +55,7 @@ All callbacks are optional — include only the ones you need.
 
 <script setup>
 import { ref } from "vue";
-import { vPress } from "vue-directives";
+import { vPress } from "vue-directives-pro";
 
 const isRecording = ref(false);
 
@@ -87,7 +87,7 @@ function stopRecording() {
 
 <script setup>
 import { ref } from "vue";
-import { vPress } from "vue-directives";
+import { vPress } from "vue-directives-pro";
 
 const holding = ref(false);
 

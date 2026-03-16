@@ -14,7 +14,7 @@ Reactively apply CSS classes based on the user's system color scheme (dark or li
 </template>
 
 <script setup>
-import { vColorMode } from "vue-directives";
+import { vColorMode } from "vue-directives-pro";
 </script>
 ```
 
@@ -42,7 +42,7 @@ Classes can be provided as a space-separated string (`'bg-dark text-white'`) or 
 </template>
 
 <script setup>
-import { vColorMode } from "vue-directives";
+import { vColorMode } from "vue-directives-pro";
 </script>
 
 <style>
@@ -74,6 +74,6 @@ import { vColorMode } from "vue-directives";
 </template>
 
 <script setup>
-import { vColorMode } from "vue-directives";
+import { vColorMode } from "vue-directives-pro";
 </script>
 ```

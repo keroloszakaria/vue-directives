@@ -10,7 +10,7 @@ Adds a live character counter below an input element, visually indicating how ma
 </template>
 
 <script setup>
-import { vMaxLength } from "vue-directives";
+import { vMaxLength } from "vue-directives-pro";
 </script>
 ```
 
@@ -45,7 +45,7 @@ The counter element is a `<span>` inserted after the input. It displays `{curren
 
 <script setup>
 import { ref } from "vue";
-import { vMaxLength } from "vue-directives";
+import { vMaxLength } from "vue-directives-pro";
 
 const title = ref("");
 </script>
@@ -73,7 +73,7 @@ const title = ref("");
 
 <script setup>
 import { ref } from "vue";
-import { vMaxLength } from "vue-directives";
+import { vMaxLength } from "vue-directives-pro";
 
 const bio = ref("");
 </script>

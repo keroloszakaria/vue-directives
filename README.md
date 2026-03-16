@@ -1,4 +1,4 @@
-# vue-directives
+# vue-directives-pro
 
 <p align="center">
   <strong>86+ Vue 3 & Nuxt 3/4 custom directives</strong><br/>
@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/vue-directives"><img src="https://img.shields.io/npm/v/vue-directives.svg?color=42b883" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/vue-directives"><img src="https://img.shields.io/npm/dm/vue-directives.svg?color=42b883" alt="npm downloads"></a>
-  <a href="https://github.com/keroloszakaria/vue-directives/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-directives.svg" alt="license"></a>
+  <a href="https://www.npmjs.com/package/vue-directives-pro"><img src="https://img.shields.io/npm/v/vue-directives-pro.svg?color=42b883" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/vue-directives-pro"><img src="https://img.shields.io/npm/dm/vue-directives-pro.svg?color=42b883" alt="npm downloads"></a>
+  <a href="https://github.com/keroloszakaria/vue-directives-pro/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-directives-pro.svg" alt="license"></a>
   <img src="https://img.shields.io/badge/vue-3.2%2B-42b883" alt="vue 3.2+">
   <img src="https://img.shields.io/badge/nuxt-3%20%7C%204-00dc82" alt="nuxt 3 | 4">
   <img src="https://img.shields.io/badge/TypeScript-strict-blue" alt="TypeScript">
@@ -19,15 +19,15 @@
 ## Install
 
 ```bash
-npm install vue-directives
+npm install vue-directives-pro
 ```
 
 ```bash
-yarn add vue-directives
+yarn add vue-directives-pro
 ```
 
 ```bash
-pnpm add vue-directives
+pnpm add vue-directives-pro
 ```
 
 > **Requirements:** Vue 3.2+
@@ -40,7 +40,7 @@ pnpm add vue-directives
 
 ```ts
 import { createApp } from "vue";
-import VueDirectivesPlugin from "vue-directives";
+import VueDirectivesPlugin from "vue-directives-pro";
 
 const app = createApp(App);
 app.use(VueDirectivesPlugin);
@@ -59,7 +59,7 @@ app.use(VueDirectivesPlugin, {
 
 ```vue
 <script setup>
-import { vClickOutside, vTooltip } from "vue-directives";
+import { vClickOutside, vTooltip } from "vue-directives-pro";
 </script>
 
 <template>
@@ -74,7 +74,7 @@ import { vClickOutside, vTooltip } from "vue-directives";
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ["vue-directives/nuxt"],
+  modules: ["vue-directives-pro/nuxt"],
 });
 ```
 
@@ -240,7 +240,7 @@ All directives are registered globally — no imports needed. SSR-safe (client-o
 All directives are individually exported. Bundlers like Vite and Webpack automatically tree-shake unused directives:
 
 ```ts
-import { vClickOutside, vCopy } from "vue-directives";
+import { vClickOutside, vCopy } from "vue-directives-pro";
 // Only these two are included in the bundle
 ```
 
@@ -251,7 +251,7 @@ import { vClickOutside, vCopy } from "vue-directives";
 Full TypeScript support. All directives are typed as `ObjectDirective` with proper generics.
 
 ```ts
-import type { VueDirectivesPluginOptions } from "vue-directives";
+import type { VueDirectivesPluginOptions } from "vue-directives-pro";
 
 const options: VueDirectivesPluginOptions = {
   directives: ["click-outside", "tooltip"],
@@ -264,7 +264,7 @@ const options: VueDirectivesPluginOptions = {
 
 Full documentation with usage examples for every directive:
 
-**[📖 View Documentation](https://vue-directives.surge.sh)**
+**[📖 View Documentation](https://vue-directives-pro.surge.sh)**
 
 ---
 

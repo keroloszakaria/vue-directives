@@ -13,7 +13,7 @@ Visually highlights DOM changes by flashing a background color on mutated elemen
 
 <script setup>
 import { ref } from "vue";
-import { vDomDiffHighlight } from "vue-directives";
+import { vDomDiffHighlight } from "vue-directives-pro";
 
 const message = ref("Hello");
 </script>
@@ -46,7 +46,7 @@ The `MutationObserver` is configured with `childList`, `subtree`, `characterData
 
 <script setup>
 import { ref } from "vue";
-import { vDomDiffHighlight } from "vue-directives";
+import { vDomDiffHighlight } from "vue-directives-pro";
 
 const count = ref(0);
 </script>
@@ -68,7 +68,7 @@ const count = ref(0);
 
 <script setup>
 import { ref } from "vue";
-import { vDomDiffHighlight } from "vue-directives";
+import { vDomDiffHighlight } from "vue-directives-pro";
 
 const items = ref(["Apple", "Banana"]);
 

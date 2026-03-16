@@ -10,7 +10,7 @@ Prefetches resources when the element enters the viewport. Injects `<link rel="p
 </template>
 
 <script setup>
-import { vPrefetch } from "vue-directives";
+import { vPrefetch } from "vue-directives-pro";
 </script>
 ```
 
@@ -36,7 +36,7 @@ The directive uses an `IntersectionObserver` with a `rootMargin` of `200px`, so 
 </template>
 
 <script setup>
-import { vPrefetch } from "vue-directives";
+import { vPrefetch } from "vue-directives-pro";
 </script>
 ```
 
@@ -53,6 +53,6 @@ import { vPrefetch } from "vue-directives";
 </template>
 
 <script setup>
-import { vPrefetch } from "vue-directives";
+import { vPrefetch } from "vue-directives-pro";
 </script>
 ```

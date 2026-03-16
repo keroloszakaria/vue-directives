@@ -10,14 +10,14 @@ Shows or hides elements based on feature flag state. Flags are managed globally 
 </template>
 
 <script setup>
-import { vFeatureFlag } from "vue-directives";
+import { vFeatureFlag } from "vue-directives-pro";
 </script>
 ```
 
 ### Setup (once, at app init)
 
 ```ts
-import { setFeatureFlags } from "vue-directives";
+import { setFeatureFlags } from "vue-directives-pro";
 
 setFeatureFlags({
   "new-dashboard": true,
@@ -56,7 +56,7 @@ When the condition is not met, the element's `display` is set to `none`. When it
 </template>
 
 <script setup>
-import { vFeatureFlag } from "vue-directives";
+import { vFeatureFlag } from "vue-directives-pro";
 </script>
 ```
 
@@ -70,7 +70,7 @@ import { vFeatureFlag } from "vue-directives";
 </template>
 
 <script setup>
-import { vFeatureFlag } from "vue-directives";
+import { vFeatureFlag } from "vue-directives-pro";
 </script>
 ```
 
@@ -92,7 +92,7 @@ import {
   vFeatureFlag,
   setFeatureFlag,
   getFeatureFlags,
-} from "vue-directives";
+} from "vue-directives-pro";
 
 const flagVersion = ref(0);
 

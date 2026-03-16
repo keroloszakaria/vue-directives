@@ -10,7 +10,7 @@ Detects user idle state after a period of inactivity. Listens to configurable DO
 </template>
 
 <script setup>
-import { vIdle } from "vue-directives";
+import { vIdle } from "vue-directives-pro";
 
 function onIdle() {
   console.log("User is idle!");
@@ -41,7 +41,7 @@ Activity events are listened on `document` level with `{ passive: true }`. The t
 </template>
 
 <script setup>
-import { vIdle } from "vue-directives";
+import { vIdle } from "vue-directives-pro";
 
 function autoLogout() {
   alert("Session expired due to inactivity.");
@@ -64,7 +64,7 @@ function autoLogout() {
 
 <script setup>
 import { ref } from "vue";
-import { vIdle } from "vue-directives";
+import { vIdle } from "vue-directives-pro";
 
 const idle = ref(false);
 
@@ -86,7 +86,7 @@ function showPrompt() {
 </template>
 
 <script setup>
-import { vIdle } from "vue-directives";
+import { vIdle } from "vue-directives-pro";
 
 function onIdle() {
   console.log("Idle based on keyboard/click activity only");

@@ -12,7 +12,7 @@ Truncate text content by character count or by CSS line clamping. Supports a cus
 </template>
 
 <script setup>
-import { vTruncate } from "vue-directives";
+import { vTruncate } from "vue-directives-pro";
 </script>
 ```
 
@@ -48,7 +48,7 @@ The binding value can be a **number** or an **object**:
 </template>
 
 <script setup>
-import { vTruncate } from "vue-directives";
+import { vTruncate } from "vue-directives-pro";
 </script>
 ```
 
@@ -64,7 +64,7 @@ import { vTruncate } from "vue-directives";
 </template>
 
 <script setup>
-import { vTruncate } from "vue-directives";
+import { vTruncate } from "vue-directives-pro";
 </script>
 ```
 
@@ -79,6 +79,6 @@ import { vTruncate } from "vue-directives";
 </template>
 
 <script setup>
-import { vTruncate } from "vue-directives";
+import { vTruncate } from "vue-directives-pro";
 </script>
 ```

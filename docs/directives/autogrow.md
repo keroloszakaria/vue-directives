@@ -10,7 +10,7 @@ Automatically resizes a `<textarea>` to fit its content as the user types. Optio
 </template>
 
 <script setup>
-import { vAutogrow } from "vue-directives";
+import { vAutogrow } from "vue-directives-pro";
 </script>
 ```
 
@@ -43,7 +43,7 @@ The directive sets `overflow: hidden` and `resize: none` on the textarea. On eac
 
 <script setup>
 import { ref } from "vue";
-import { vAutogrow } from "vue-directives";
+import { vAutogrow } from "vue-directives-pro";
 
 const notes = ref("");
 </script>
@@ -67,7 +67,7 @@ const notes = ref("");
 
 <script setup>
 import { ref } from "vue";
-import { vAutogrow } from "vue-directives";
+import { vAutogrow } from "vue-directives-pro";
 
 const comment = ref("");
 </script>

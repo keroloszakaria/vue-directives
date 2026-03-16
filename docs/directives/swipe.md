@@ -10,7 +10,7 @@ Detects touch swipe gestures in four directions — left, right, up, and down. P
 </template>
 
 <script setup>
-import { vSwipe } from "vue-directives";
+import { vSwipe } from "vue-directives-pro";
 
 function handleSwipe(direction) {
   console.log("Swiped:", direction);
@@ -52,7 +52,7 @@ The directive listens for `touchstart` and `touchend` events. A swipe is registe
 
 <script setup>
 import { ref } from "vue";
-import { vSwipe } from "vue-directives";
+import { vSwipe } from "vue-directives-pro";
 
 const lastDirection = ref("none");
 
@@ -85,7 +85,7 @@ function handleSwipe(direction) {
 
 <script setup>
 import { ref } from "vue";
-import { vSwipe } from "vue-directives";
+import { vSwipe } from "vue-directives-pro";
 
 const images = [
   "https://picsum.photos/600/300?random=1",

@@ -12,7 +12,7 @@ Shows a loading placeholder while a `Promise` is pending and reveals the origina
 </template>
 
 <script setup>
-import { vSuspend } from "vue-directives";
+import { vSuspend } from "vue-directives-pro";
 
 function fetchData() {
   return fetch("/api/data").then((r) => r.json());
@@ -41,7 +41,7 @@ When a promise rejects, the element displays a red error message ("Failed to loa
 
 <script setup>
 import { ref } from "vue";
-import { vSuspend } from "vue-directives";
+import { vSuspend } from "vue-directives-pro";
 import UserProfile from "./UserProfile.vue";
 
 const user = ref(null);
@@ -67,7 +67,7 @@ const userPromise = fetch("/api/user")
 
 <script setup>
 import { ref } from "vue";
-import { vSuspend } from "vue-directives";
+import { vSuspend } from "vue-directives-pro";
 
 const isLoading = ref(false);
 

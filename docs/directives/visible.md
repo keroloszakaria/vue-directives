@@ -11,7 +11,7 @@ Toggle an element's visibility using CSS `visibility` without affecting layout. 
 
 <script setup>
 import { ref } from "vue";
-import { vVisible } from "vue-directives";
+import { vVisible } from "vue-directives-pro";
 
 const isVisible = ref(true);
 </script>
@@ -40,7 +40,7 @@ const isVisible = ref(true);
 
 <script setup>
 import { ref } from "vue";
-import { vVisible } from "vue-directives";
+import { vVisible } from "vue-directives-pro";
 
 const show = ref(true);
 </script>
@@ -82,7 +82,7 @@ const show = ref(true);
 
 <script setup>
 import { ref } from "vue";
-import { vVisible } from "vue-directives";
+import { vVisible } from "vue-directives-pro";
 
 const hovered = ref(false);
 </script>

@@ -8,7 +8,7 @@ import type { ObjectDirective } from "vue";
  *   <div v-feature-flag="['feature-a', 'feature-b']">Needs both</div>
  *
  * Setup:
- *   import { setFeatureFlags } from 'vue-directives';
+ *   import { setFeatureFlags } from 'vue-directives-pro';
  *   setFeatureFlags({ 'new-dashboard': true, 'beta-feature': false });
  */
 

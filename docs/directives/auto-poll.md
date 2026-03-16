@@ -12,7 +12,7 @@ Automatically poll an async handler at a fixed interval. The handler receives an
 </template>
 
 <script setup>
-import { vAutoPoll } from "vue-directives";
+import { vAutoPoll } from "vue-directives-pro";
 import { ref } from "vue";
 
 const status = ref("Loading...");
@@ -49,7 +49,7 @@ The binding value is an **`AutoPollBinding`** object:
 </template>
 
 <script setup>
-import { vAutoPoll } from "vue-directives";
+import { vAutoPoll } from "vue-directives-pro";
 import { ref } from "vue";
 
 const messages = ref<{ id: number; text: string }[]>([]);
@@ -73,7 +73,7 @@ async function loadMessages(signal: AbortSignal) {
 </template>
 
 <script setup>
-import { vAutoPoll } from "vue-directives";
+import { vAutoPoll } from "vue-directives-pro";
 import { ref } from "vue";
 
 const serverStatus = ref("unknown");

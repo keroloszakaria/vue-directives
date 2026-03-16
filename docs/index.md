@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: "vue-directives"
+  name: "vue-directives-pro"
   text: "86+ Vue 3 & Nuxt 3 Custom Directives"
   tagline: "A comprehensive, tree-shakable, fully typed collection of custom directives for every use case."
   image: "/logo.png"

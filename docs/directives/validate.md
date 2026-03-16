@@ -15,7 +15,7 @@ Validates input values against an array of custom rules, applying an error CSS c
 </template>
 
 <script setup>
-import { vValidate } from "vue-directives";
+import { vValidate } from "vue-directives-pro";
 </script>
 ```
 
@@ -63,7 +63,7 @@ When validation fails, the first error message is set via `el.setCustomValidity(
 </template>
 
 <script setup>
-import { vValidate } from "vue-directives";
+import { vValidate } from "vue-directives-pro";
 </script>
 
 <style>
@@ -102,7 +102,7 @@ import { vValidate } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vValidate } from "vue-directives";
+import { vValidate } from "vue-directives-pro";
 
 const email = ref("");
 const errors = ref<string[]>([]);

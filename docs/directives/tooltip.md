@@ -10,7 +10,7 @@ Displays a lightweight tooltip on hover. The tooltip is positioned relative to t
 </template>
 
 <script setup>
-import { vTooltip } from "vue-directives";
+import { vTooltip } from "vue-directives-pro";
 </script>
 ```
 
@@ -45,7 +45,7 @@ The directive also supports **reactive updates** — if the bound value changes,
 </template>
 
 <script setup>
-import { vTooltip } from "vue-directives";
+import { vTooltip } from "vue-directives-pro";
 </script>
 ```
 
@@ -59,7 +59,7 @@ import { vTooltip } from "vue-directives";
 </template>
 
 <script setup>
-import { vTooltip } from "vue-directives";
+import { vTooltip } from "vue-directives-pro";
 </script>
 ```
 
@@ -75,7 +75,7 @@ import { vTooltip } from "vue-directives";
 </template>
 
 <script setup>
-import { vTooltip } from "vue-directives";
+import { vTooltip } from "vue-directives-pro";
 </script>
 ```
 
@@ -90,7 +90,7 @@ import { vTooltip } from "vue-directives";
 
 <script setup>
 import { ref, computed } from "vue";
-import { vTooltip } from "vue-directives";
+import { vTooltip } from "vue-directives-pro";
 
 const isActive = ref(true);
 const statusText = computed(() =>

@@ -10,7 +10,7 @@ Disables a button for a specified duration after it is clicked, preventing accid
 </template>
 
 <script setup>
-import { vPreventDoubleClick } from "vue-directives";
+import { vPreventDoubleClick } from "vue-directives-pro";
 
 function submitForm() {
   console.log("Form submitted");
@@ -42,7 +42,7 @@ All three are automatically reversed when the cooldown expires.
 </template>
 
 <script setup>
-import { vPreventDoubleClick } from "vue-directives";
+import { vPreventDoubleClick } from "vue-directives-pro";
 
 function save() {
   // API call happens once — button is disabled for 1s
@@ -58,7 +58,7 @@ function save() {
 </template>
 
 <script setup>
-import { vPreventDoubleClick } from "vue-directives";
+import { vPreventDoubleClick } from "vue-directives-pro";
 
 function placeOrder() {
   // Button stays disabled for 3 seconds after click
@@ -77,7 +77,7 @@ function placeOrder() {
 </template>
 
 <script setup>
-import { vPreventDoubleClick } from "vue-directives";
+import { vPreventDoubleClick } from "vue-directives-pro";
 
 function processPayment() {
   console.log("Payment processing...");

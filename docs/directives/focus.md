@@ -10,7 +10,7 @@ Auto-focuses an element when it is mounted. Optionally accepts a boolean to cond
 </template>
 
 <script setup>
-import { vFocus } from "vue-directives";
+import { vFocus } from "vue-directives-pro";
 </script>
 ```
 
@@ -41,7 +41,7 @@ When the binding value changes from `false` to `true` (via `updated` hook), the 
 </template>
 
 <script setup>
-import { vFocus } from "vue-directives";
+import { vFocus } from "vue-directives-pro";
 </script>
 ```
 
@@ -65,7 +65,7 @@ import { vFocus } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vFocus } from "vue-directives";
+import { vFocus } from "vue-directives-pro";
 
 const editing = ref(false);
 const name = ref("John Doe");

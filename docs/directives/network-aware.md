@@ -12,7 +12,7 @@ Adapts element behavior based on the user's network conditions. Reacts to online
 </template>
 
 <script setup>
-import { vNetworkAware } from "vue-directives";
+import { vNetworkAware } from "vue-directives-pro";
 </script>
 ```
 
@@ -41,7 +41,7 @@ The directive listens to the global `online` and `offline` events and runs an in
 </template>
 
 <script setup>
-import { vNetworkAware } from "vue-directives";
+import { vNetworkAware } from "vue-directives-pro";
 </script>
 ```
 
@@ -63,7 +63,7 @@ import { vNetworkAware } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vNetworkAware } from "vue-directives";
+import { vNetworkAware } from "vue-directives-pro";
 
 const imageSrc = ref("/images/photo-hd.jpg");
 
@@ -91,7 +91,7 @@ function showPlaceholder() {
 </template>
 
 <script setup>
-import { vNetworkAware } from "vue-directives";
+import { vNetworkAware } from "vue-directives-pro";
 </script>
 
 <style>

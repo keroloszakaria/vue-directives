@@ -15,7 +15,7 @@ Traps keyboard focus within an element so that pressing <kbd>Tab</kbd> or <kbd>S
 
 <script setup>
 import { ref } from "vue";
-import { vFocusTrap } from "vue-directives";
+import { vFocusTrap } from "vue-directives-pro";
 
 const showDialog = ref(true);
 </script>
@@ -47,7 +47,7 @@ Focusable elements matched inside the container: `a[href]`, `button:not([disable
 
 <script setup>
 import { ref } from "vue";
-import { vFocusTrap } from "vue-directives";
+import { vFocusTrap } from "vue-directives-pro";
 
 const open = ref(true);
 
@@ -73,7 +73,7 @@ function confirm() {
 
 <script setup>
 import { ref } from "vue";
-import { vFocusTrap } from "vue-directives";
+import { vFocusTrap } from "vue-directives-pro";
 
 const trapActive = ref(true);
 </script>

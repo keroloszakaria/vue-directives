@@ -10,14 +10,14 @@ Shows, hides, removes, or disables elements based on user roles/permissions. Req
 </template>
 
 <script setup>
-import { vPermission } from "vue-directives";
+import { vPermission } from "vue-directives-pro";
 </script>
 ```
 
 ### Setup (once, at app init)
 
 ```ts
-import { setPermissionRoles } from "vue-directives";
+import { setPermissionRoles } from "vue-directives-pro";
 
 // Set the authenticated user's roles
 setPermissionRoles(["admin", "user"]);
@@ -62,7 +62,7 @@ The binding value can be a **string**, **string array**, or an **object**:
 </template>
 
 <script setup>
-import { vPermission } from "vue-directives";
+import { vPermission } from "vue-directives-pro";
 </script>
 ```
 
@@ -76,7 +76,7 @@ import { vPermission } from "vue-directives";
 </template>
 
 <script setup>
-import { vPermission } from "vue-directives";
+import { vPermission } from "vue-directives-pro";
 </script>
 ```
 
@@ -93,6 +93,6 @@ import { vPermission } from "vue-directives";
 </template>
 
 <script setup>
-import { vPermission } from "vue-directives";
+import { vPermission } from "vue-directives-pro";
 </script>
 ```

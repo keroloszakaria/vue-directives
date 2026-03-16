@@ -10,7 +10,7 @@ Makes an element follow the mouse cursor. Useful for custom cursors, tooltips, f
 </template>
 
 <script setup>
-import { vCursorFollow } from "vue-directives";
+import { vCursorFollow } from "vue-directives-pro";
 </script>
 ```
 
@@ -53,7 +53,7 @@ The directive sets `position: fixed`, `pointer-events: none`, and `z-index: 9999
 </template>
 
 <script setup>
-import { vCursorFollow } from "vue-directives";
+import { vCursorFollow } from "vue-directives-pro";
 </script>
 ```
 
@@ -77,6 +77,6 @@ import { vCursorFollow } from "vue-directives";
 </template>
 
 <script setup>
-import { vCursorFollow } from "vue-directives";
+import { vCursorFollow } from "vue-directives-pro";
 </script>
 ```

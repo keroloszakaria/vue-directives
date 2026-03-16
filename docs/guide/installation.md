@@ -5,15 +5,15 @@
 ::: code-group
 
 ```bash [npm]
-npm install vue-directives
+npm install vue-directives-pro
 ```
 
 ```bash [yarn]
-yarn add vue-directives
+yarn add vue-directives-pro
 ```
 
 ```bash [pnpm]
-pnpm add vue-directives
+pnpm add vue-directives-pro
 ```
 
 :::

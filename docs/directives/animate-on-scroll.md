@@ -12,7 +12,7 @@ Add CSS animation classes to an element when it scrolls into view using the Inte
 </template>
 
 <script setup>
-import { vAnimateOnScroll } from "vue-directives";
+import { vAnimateOnScroll } from "vue-directives-pro";
 </script>
 ```
 
@@ -43,7 +43,7 @@ The binding value can be a **string** (shorthand for a single class with default
 </template>
 
 <script setup>
-import { vAnimateOnScroll } from "vue-directives";
+import { vAnimateOnScroll } from "vue-directives-pro";
 </script>
 
 <style>
@@ -81,7 +81,7 @@ import { vAnimateOnScroll } from "vue-directives";
 </template>
 
 <script setup>
-import { vAnimateOnScroll } from "vue-directives";
+import { vAnimateOnScroll } from "vue-directives-pro";
 </script>
 
 <style>

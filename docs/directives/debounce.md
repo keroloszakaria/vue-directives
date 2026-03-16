@@ -10,7 +10,7 @@ Debounces an event handler on an element — the handler is only invoked after a
 </template>
 
 <script setup>
-import { vDebounce } from "vue-directives";
+import { vDebounce } from "vue-directives-pro";
 
 function onSearch(e) {
   console.log("Search:", e.target.value);
@@ -49,7 +49,7 @@ The directive attaches a single event listener. When the binding value updates, 
 
 <script setup>
 import { ref } from "vue";
-import { vDebounce } from "vue-directives";
+import { vDebounce } from "vue-directives-pro";
 
 const results = ref([]);
 
@@ -78,7 +78,7 @@ function search(e) {
 
 <script setup>
 import { ref } from "vue";
-import { vDebounce } from "vue-directives";
+import { vDebounce } from "vue-directives-pro";
 
 const savedAt = ref("");
 

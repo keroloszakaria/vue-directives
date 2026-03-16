@@ -10,7 +10,7 @@ Sync data across browser tabs in real time using the BroadcastChannel API. On in
 </template>
 
 <script setup>
-import { vSyncBroadcast } from "vue-directives";
+import { vSyncBroadcast } from "vue-directives-pro";
 </script>
 ```
 
@@ -39,7 +39,7 @@ For `<input>` and `<textarea>` elements, the directive automatically sends the c
 </template>
 
 <script setup>
-import { vSyncBroadcast } from "vue-directives";
+import { vSyncBroadcast } from "vue-directives-pro";
 </script>
 ```
 
@@ -58,7 +58,7 @@ import { vSyncBroadcast } from "vue-directives";
 </template>
 
 <script setup>
-import { vSyncBroadcast } from "vue-directives";
+import { vSyncBroadcast } from "vue-directives-pro";
 import { ref } from "vue";
 
 const latestNotification = ref("Waiting for messages...");

@@ -10,7 +10,7 @@ Adds a CSS class to the element only when it receives focus via keyboard navigat
 </template>
 
 <script setup>
-import { vFocusVisible } from "vue-directives";
+import { vFocusVisible } from "vue-directives-pro";
 </script>
 ```
 
@@ -32,7 +32,7 @@ The class is added on `focus` if the last interaction was a keyboard event, and 
 </template>
 
 <script setup>
-import { vFocusVisible } from "vue-directives";
+import { vFocusVisible } from "vue-directives-pro";
 </script>
 
 <style>
@@ -51,7 +51,7 @@ import { vFocusVisible } from "vue-directives";
 </template>
 
 <script setup>
-import { vFocusVisible } from "vue-directives";
+import { vFocusVisible } from "vue-directives-pro";
 </script>
 
 <style>
@@ -73,7 +73,7 @@ import { vFocusVisible } from "vue-directives";
 </template>
 
 <script setup>
-import { vFocusVisible } from "vue-directives";
+import { vFocusVisible } from "vue-directives-pro";
 </script>
 
 <style>

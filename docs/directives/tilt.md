@@ -10,7 +10,7 @@ Apply a 3D tilt hover effect to an element (similar to vanilla-tilt). The elemen
 </template>
 
 <script setup>
-import { vTilt } from "vue-directives";
+import { vTilt } from "vue-directives-pro";
 </script>
 ```
 
@@ -41,7 +41,7 @@ The binding value can be `undefined`/omitted (use defaults), `false` (disable), 
 </template>
 
 <script setup>
-import { vTilt } from "vue-directives";
+import { vTilt } from "vue-directives-pro";
 </script>
 
 <style scoped>
@@ -76,7 +76,7 @@ import { vTilt } from "vue-directives";
 </template>
 
 <script setup>
-import { vTilt } from "vue-directives";
+import { vTilt } from "vue-directives-pro";
 </script>
 
 <style scoped>

@@ -12,7 +12,7 @@ Adapts rendering based on the device's CPU capabilities. Detects low-end hardwar
 </template>
 
 <script setup>
-import { vCpuAware } from "vue-directives";
+import { vCpuAware } from "vue-directives-pro";
 </script>
 ```
 
@@ -44,7 +44,7 @@ When `reduceAnimations` is `true`, the directive sets `--v-transition-duration` 
 </template>
 
 <script setup>
-import { vCpuAware } from "vue-directives";
+import { vCpuAware } from "vue-directives-pro";
 </script>
 
 <style>
@@ -74,7 +74,7 @@ import { vCpuAware } from "vue-directives";
 
 <script setup>
 import { ref } from 'vue'
-import { vCpuAware } from 'vue-directives'
+import { vCpuAware } from 'vue-directives-pro'
 
 const canvas = ref<HTMLCanvasElement>()
 

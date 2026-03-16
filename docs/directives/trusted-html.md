@@ -11,7 +11,7 @@ Sets an element's `innerHTML` using the browser's [Trusted Types API](https://de
 
 <script setup>
 import { ref } from "vue";
-import { vTrustedHtml } from "vue-directives";
+import { vTrustedHtml } from "vue-directives-pro";
 
 const htmlContent = ref("<p>Hello from trusted HTML</p>");
 </script>
@@ -36,7 +36,7 @@ The element's content is replaced entirely on each update.
 
 <script setup>
 import { ref } from "vue";
-import { vTrustedHtml } from "vue-directives";
+import { vTrustedHtml } from "vue-directives-pro";
 
 const article = ref("<h2>Title</h2><p>Paragraph content.</p>");
 </script>
@@ -54,7 +54,7 @@ const article = ref("<h2>Title</h2><p>Paragraph content.</p>");
 
 <script setup>
 import { ref, computed } from "vue";
-import { vTrustedHtml } from "vue-directives";
+import { vTrustedHtml } from "vue-directives-pro";
 
 const source = ref("<p>Edit me</p>");
 const preview = computed(() => source.value);

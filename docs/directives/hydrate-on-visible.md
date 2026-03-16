@@ -12,7 +12,7 @@ Triggers a hydration callback when the element enters the viewport. Useful for l
 </template>
 
 <script setup>
-import { vHydrateOnVisible } from "vue-directives";
+import { vHydrateOnVisible } from "vue-directives-pro";
 
 function hydrateComponent() {
   console.log("Component hydrated!");
@@ -44,7 +44,7 @@ Uses an `IntersectionObserver` with a `rootMargin` of `100px` to trigger hydrati
 </template>
 
 <script setup>
-import { vHydrateOnVisible } from "vue-directives";
+import { vHydrateOnVisible } from "vue-directives-pro";
 import HeroSection from "./HeroSection.vue";
 import ChartPlaceholder from "./ChartPlaceholder.vue";
 
@@ -65,7 +65,7 @@ function initChart() {
 </template>
 
 <script setup>
-import { vHydrateOnVisible } from "vue-directives";
+import { vHydrateOnVisible } from "vue-directives-pro";
 
 async function loadComments() {
   const module = await import("./CommentsWidget.vue");

@@ -10,7 +10,7 @@ Adds a Material Design–style ripple effect that expands from the click positio
 </template>
 
 <script setup>
-import { vRipple } from "vue-directives";
+import { vRipple } from "vue-directives-pro";
 </script>
 ```
 
@@ -44,7 +44,7 @@ The directive automatically sets `position: relative` and `overflow: hidden` on 
 </template>
 
 <script setup>
-import { vRipple } from "vue-directives";
+import { vRipple } from "vue-directives-pro";
 </script>
 ```
 
@@ -61,7 +61,7 @@ import { vRipple } from "vue-directives";
 </template>
 
 <script setup>
-import { vRipple } from "vue-directives";
+import { vRipple } from "vue-directives-pro";
 </script>
 ```
 
@@ -81,7 +81,7 @@ import { vRipple } from "vue-directives";
 
 <script setup>
 import { ref } from "vue";
-import { vRipple } from "vue-directives";
+import { vRipple } from "vue-directives-pro";
 
 const isLoading = ref(false);
 
@@ -107,7 +107,7 @@ function submit() {
 </template>
 
 <script setup>
-import { vRipple } from "vue-directives";
+import { vRipple } from "vue-directives-pro";
 
 function openDetail() {
   console.log("Opening detail view");

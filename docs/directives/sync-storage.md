@@ -10,7 +10,7 @@ Two-way sync an input element's value with `localStorage` or `sessionStorage`. R
 </template>
 
 <script setup>
-import { vSyncStorage } from "vue-directives";
+import { vSyncStorage } from "vue-directives-pro";
 </script>
 ```
 
@@ -40,7 +40,7 @@ The binding value can be a **string** or an **object**:
 </template>
 
 <script setup>
-import { vSyncStorage } from "vue-directives";
+import { vSyncStorage } from "vue-directives-pro";
 </script>
 ```
 
@@ -57,7 +57,7 @@ The value persists across page reloads and syncs across tabs automatically.
 </template>
 
 <script setup>
-import { vSyncStorage } from "vue-directives";
+import { vSyncStorage } from "vue-directives-pro";
 </script>
 ```
 
@@ -75,6 +75,6 @@ import { vSyncStorage } from "vue-directives";
 </template>
 
 <script setup>
-import { vSyncStorage } from "vue-directives";
+import { vSyncStorage } from "vue-directives-pro";
 </script>
 ```

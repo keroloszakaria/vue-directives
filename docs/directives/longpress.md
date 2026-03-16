@@ -10,7 +10,7 @@ Triggers a callback when the user presses and holds an element for a specified d
 </template>
 
 <script setup>
-import { vLongpress } from 'vue-directives'
+import { vLongpress } from 'vue-directives-pro'
 
 function onLongPress(event: MouseEvent | TouchEvent) {
   console.log('Long press detected!', event)
@@ -46,7 +46,7 @@ The timer is cancelled if the user releases (`mouseup` / `touchend`) or leaves (
 </template>
 
 <script setup>
-import { vLongpress } from "vue-directives";
+import { vLongpress } from "vue-directives-pro";
 
 function onHold() {
   alert("Item deleted!");
@@ -64,7 +64,7 @@ function onHold() {
 </template>
 
 <script setup>
-import { vLongpress } from "vue-directives";
+import { vLongpress } from "vue-directives-pro";
 
 function onConfirm() {
   console.log("Action confirmed after 1.5 seconds");
@@ -85,7 +85,7 @@ function onConfirm() {
 </template>
 
 <script setup>
-import { vLongpress } from 'vue-directives'
+import { vLongpress } from 'vue-directives-pro'
 
 const item = { name: 'Document.pdf' }
 

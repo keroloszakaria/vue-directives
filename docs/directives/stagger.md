@@ -13,7 +13,7 @@ Animate child elements with a staggered delay when the parent scrolls into view.
 
 <script setup>
 import { ref } from "vue";
-import { vStagger } from "vue-directives";
+import { vStagger } from "vue-directives-pro";
 
 const items = ref(["First", "Second", "Third", "Fourth"]);
 </script>
@@ -43,7 +43,7 @@ const items = ref(["First", "Second", "Third", "Fourth"]);
 
 <script setup>
 import { ref } from "vue";
-import { vStagger } from "vue-directives";
+import { vStagger } from "vue-directives-pro";
 
 const features = ref([
   "Fast rendering",
@@ -78,7 +78,7 @@ const features = ref([
 
 <script setup>
 import { ref } from "vue";
-import { vStagger } from "vue-directives";
+import { vStagger } from "vue-directives-pro";
 
 const cards = ref([
   { id: 1, title: "Analytics", description: "Track user behavior" },
